@@ -1,0 +1,8 @@
+/*variable*/
+@import 'variables';
+
+body {
+	padding-top: 70px;
+	font: 100% $font-stack;
+	color: $primary-color;
+}
