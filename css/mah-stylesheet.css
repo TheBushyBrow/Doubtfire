@@ -1,7 +1,13 @@
-/*variable*/
 body {
   padding-top: 70px;
   font: 100% Helvetica, sans-serif;
   color: #333; }
+
+.container-head {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto; }
+  .container-head .head-ill {
+    max-height: 100%; }
 
 /*# sourceMappingURL=mah-stylesheet.css.map */

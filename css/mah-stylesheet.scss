@@ -1,8 +1,18 @@
-/*variable*/
+//importing style variables
 @import 'variables';
 
 body {
 	padding-top: 70px;
 	font: 100% $font-stack;
 	color: $primary-color;
+}
+
+.container-head {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	
+	.head-ill {
+		max-height: 100%;
+	}
 }
