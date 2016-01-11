@@ -1,7 +1,22 @@
 body {
   padding-top: 70px;
-  font: 100% Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   color: #333; }
+
+.navbar {
+  background-color: white;
+  border: 0; }
+
+#major h3 {
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: bold; }
+#major h4.small {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f1b348; }
 
 .container-head {
   height: 250px;

@@ -3,10 +3,29 @@
 
 body {
 	padding-top: 70px;
-	font: 100% $font-stack;
+	font-family: $font-stack;
+	font-size: $font-base;
 	color: $primary-color;
 }
 
+.navbar {
+	background-color: white;
+	border: 0;
+}
+
+#major {
+	h3 {
+		font-size: $font-major;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	h4.small {
+		font-size: $font-major-sub;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $gold;
+	}
+}
 .container-head {
 	height: 250px;
 	width: 250px;
