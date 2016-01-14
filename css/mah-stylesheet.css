@@ -1,3 +1,7 @@
+.font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 body {
   padding-top: 70px;
   font-family: "Roboto", sans-serif;
@@ -7,6 +11,15 @@ body {
 .navbar {
   background-color: white;
   border: 0; }
+
+section.hello, section.enjoys, section.work {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 45px 0; }
+
+hr {
+  border: dashed 2px #DDD;
+  width: 50px; }
 
 #major h3 {
   font-size: 90px;
@@ -24,5 +37,11 @@ body {
   margin: 0 auto; }
   .container-head .head-ill {
     max-height: 100%; }
+
+.headline h4 {
+  font-size: 28px; }
+.headline p.blurb {
+  font-size: 18px;
+  font-weight: 300; }
 
 /*# sourceMappingURL=mah-stylesheet.css.map */

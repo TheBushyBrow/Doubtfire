@@ -1,6 +1,12 @@
 //importing style variables
 @import 'variables';
 
+//helper classes
+.font-smoothing {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 body {
 	padding-top: 70px;
 	font-family: $font-stack;
@@ -13,6 +19,18 @@ body {
 	border: 0;
 }
 
+section {
+	&.hello,&.enjoys,&.work {
+		max-width: 450px;
+		margin: 0 auto;
+		padding: 45px 0;
+	}
+}
+
+hr {
+	border: dashed 2px #DDD;
+	width: 50px;
+}
 #major {
 	h3 {
 		font-size: $font-major;
@@ -33,5 +51,15 @@ body {
 	
 	.head-ill {
 		max-height: 100%;
+	}
+}
+
+.headline {
+	h4 {
+		font-size: $font-minor;
+	}
+	p.blurb {
+		font-size: $font-minor-sub;
+		font-weight: 300;
 	}
 }

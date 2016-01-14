@@ -1,13 +1,13 @@
 // Variables Partial
-
-
 $primary-color: #333;
 
 // fonts
 $font-stack:    'Roboto', sans-serif;
 $font-base: 16px;
-$font-major: 90px;
-$font-major-sub: 45px;
+$font-major: ($font-base * 5.625);
+$font-major-sub: ($font-major / 2);
+$font-minor: ($font-base * 1.75);
+$font-minor-sub: ($font-base * 1.125);
 
 //colors
 $gold: #f1b348;
