@@ -1,5 +1,6 @@
-//importing style variables
+//imports
 @import 'variables';
+@import 'mixins';
 
 //helper classes
 .font-smoothing {
@@ -36,12 +37,21 @@ hr {
 		font-size: $font-major;
 		text-transform: uppercase;
 		font-weight: bold;
+		
+		&.small {
+			font-size: 60px;
+		}
 	}
 	h4.small {
 		font-size: $font-major-sub;
 		text-transform: uppercase;
 		font-weight: bold;
 		color: $gold;
+		@include transition(color .3s ease); 
+		
+		&:hover {
+			color: darken( $gold, 10% );
+		}
 	}
 }
 .container-head {
@@ -61,5 +71,16 @@ hr {
 	p.blurb {
 		font-size: $font-minor-sub;
 		font-weight: 300;
+		
+		.label {
+			padding: 8px ;
+			margin-right: 5px;
+			line-height: 40px;
+			
+			&.label-gold {
+				background-color: lighten( $gold, 10% );
+				
+			}
+		}
 	}
 }

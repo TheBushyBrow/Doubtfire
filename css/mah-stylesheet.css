@@ -25,11 +25,20 @@ hr {
   font-size: 90px;
   text-transform: uppercase;
   font-weight: bold; }
+  #major h3.small {
+    font-size: 60px; }
 #major h4.small {
   font-size: 45px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #f1b348; }
+  color: #f1b348;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease; }
+  #major h4.small:hover {
+    color: #ed9f19; }
 
 .container-head {
   height: 250px;
@@ -43,5 +52,11 @@ hr {
 .headline p.blurb {
   font-size: 18px;
   font-weight: 300; }
+  .headline p.blurb .label {
+    padding: 8px;
+    margin-right: 5px;
+    line-height: 40px; }
+    .headline p.blurb .label.label-gold {
+      background-color: #f5c777; }
 
 /*# sourceMappingURL=mah-stylesheet.css.map */
