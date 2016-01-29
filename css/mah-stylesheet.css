@@ -2,10 +2,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+html {
+  font-size: 62.5%;
+  /* Sets up the Base 10 stuff */ }
+
 body {
   padding-top: 70px;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
   color: #333; }
 
 .navbar {
@@ -13,7 +16,7 @@ body {
   border: 0; }
 
 section.hello, section.enjoys, section.work {
-  max-width: 450px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 45px 0; }
 
@@ -49,14 +52,19 @@ hr {
 
 .headline h4 {
   font-size: 28px; }
-.headline p.blurb {
+.headline .blurb {
   font-size: 18px;
-  font-weight: 300; }
-  .headline p.blurb .label {
+  font-weight: 300;
+  color: #707070;
+  margin-bottom: 15px; }
+  .headline .blurb .blurb-title {
+    font-weight: bold;
+    font-size: 22px; }
+  .headline .blurb .label {
     padding: 8px;
     margin-right: 5px;
     line-height: 40px; }
-    .headline p.blurb .label.label-gold {
+    .headline .blurb .label.label-gold {
       background-color: #f5c777; }
 
 /*# sourceMappingURL=mah-stylesheet.css.map */

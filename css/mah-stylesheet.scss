@@ -7,11 +7,12 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+html {
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+}
 body {
 	padding-top: 70px;
 	font-family: $font-stack;
-	font-size: $font-base;
 	color: $primary-color;
 }
 
@@ -22,7 +23,7 @@ body {
 
 section {
 	&.hello,&.enjoys,&.work {
-		max-width: 450px;
+		max-width: 500px;
 		margin: 0 auto;
 		padding: 45px 0;
 	}
@@ -68,10 +69,16 @@ hr {
 	h4 {
 		font-size: $font-minor;
 	}
-	p.blurb {
+	.blurb {
 		font-size: $font-minor-sub;
 		font-weight: 300;
+		color: $grey;
+		margin-bottom: 15px;
 		
+		.blurb-title {
+			font-weight: bold;
+			font-size: 22px;
+		}
 		.label {
 			padding: 8px ;
 			margin-right: 5px;
