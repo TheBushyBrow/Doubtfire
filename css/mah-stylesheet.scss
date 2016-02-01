@@ -15,7 +15,19 @@ body {
 	font-family: $font-stack;
 	color: $primary-color;
 }
-
+//bootstrap header
+nav {
+	background: #f5b335;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+// we'll add this class using javascript
+.nav-up {
+  top: -50px; // same as header height. use variables in LESS/SASS
+}
 a {
 	text-decoration: none;
 	color: inherit;
