@@ -31,11 +31,19 @@ function hasScrolled() {
         // Scroll Up
         if(st + $(window).height() > $(document).height()) {
 			console.log(st)
-			console.log($(window).height())
-			console.log($(document).height())
+			// console.log($(window).height())
+			// console.log($(document).height())
             $('nav').removeClass('nav-up').addClass('nav-down');
         }
     }
     
     lastScrollTop = st;
 }	
+
+$( document ).ready(function() {
+	$('.nav-head').hover(function(){
+	   $('.myname').stop().animate({left: '80px'}, 1000)
+   }, function(){
+	   $('.myname').stop().animate({left: '-120'}, 1000)
+ });
+});
