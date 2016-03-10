@@ -62,8 +62,11 @@ ul.nav.navbar-nav.navbar-right {
   background-color: white;
   border: 0; }
 
-section.hello, section.enjoys, section.work {
+section.hello, section.work {
   max-width: 500px;
+  margin: 0 auto;
+  padding: 45px 0; }
+section.enjoys {
   margin: 0 auto;
   padding: 45px 0; }
 

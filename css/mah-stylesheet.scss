@@ -78,8 +78,13 @@ ul.nav.navbar-nav.navbar-right {
 }
 
 section {
-	&.hello,&.enjoys,&.work {
+	&.hello,&.work {
 		max-width: 500px;
+		margin: 0 auto;
+		padding: 45px 0;
+	}
+	
+	&.enjoys {
 		margin: 0 auto;
 		padding: 45px 0;
 	}
